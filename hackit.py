@@ -5,6 +5,8 @@ from datetime import datetime
 
 details = sys.argv
 mySocket = socket.socket()
+address = (details[1], int(details[2]))
+mySocket.connect(address)
 alpha_chars = []
 for i in range(10):
     alpha_chars.append(i)
@@ -12,8 +14,6 @@ for i in range(27):
     alpha_chars.append(chr(97 + i))
 for i in range(27):
     alpha_chars.append(chr(65 + i))
-address = ('127.0.0.1', 9090)
-mySocket.connect(address)
 credentials = {
     "login": "",
     "password": " "
