@@ -1,4 +1,4 @@
-# Password-Hacker-Jetbrains-Academy
+# Password-Hacker (By Jetbrains-Academy)
 
 
 It is a simple project by the Jetbrains Academy under the Python Developer category, mainly focusses on leraning new concepts with a project. This is the python code for the "Time-based vulnerability" where the server communicates with JSON date type which contains "login" and "password" in it representing the login name and password respectively(it uses local machine itself as server) and has the vulnerabilities:
